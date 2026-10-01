@@ -82,9 +82,10 @@ export function PhotoLightbox({
     }
   }
 
+  const firstName = photographerProfile.name.split(" ")[0]
   const inquireSubject = encodeURIComponent(`Inquiry regarding "${photo.title}"`)
   const inquireBody = encodeURIComponent(
-    `Hello Achmad,\n\nI was viewing your portfolio and would like to inquire about the photograph "${photo.title}" (${photo.id}, ${photo.location}) or a related assignment.\n\nBest regards,`
+    `Hello ${firstName},\n\nI was viewing your portfolio and would like to inquire about the photograph "${photo.title}" (${photo.id}, ${photo.location}) or a related assignment.\n\nBest regards,`
   )
 
   return (

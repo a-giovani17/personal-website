@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Newsreader } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
+import { photographerProfile } from "@/lib/portfolio-data"
 
 const fontSerif = Newsreader({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Achmad Giovani — Photography & Visual Documentation",
+  title: `${photographerProfile.name} — Photography & Visual Documentation`,
   description:
     "Selected photographic works focusing on architectural space, natural light, editorial portraits, and documentary observation.",
 }
