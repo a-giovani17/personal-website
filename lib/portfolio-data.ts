@@ -55,9 +55,9 @@ export interface PhotographerProfile {
 }
 
 export const photographerProfile: PhotographerProfile = {
-  name: "Achmad Giovani",
+  name: "Alex Morgan",
   title: "Photographer & Visual Documentarian",
-  email: "achmad.giovani@imaniprima.co.id",
+  email: "hello@example.com",
   location: "Jakarta, Indonesia — Available worldwide",
   shortBio:
     "Observational photographer working across architectural spaces, editorial portraiture, and quiet documentary studies. Working primarily with natural light, spatial geometry, and medium format film.",
@@ -345,14 +345,14 @@ export const heroPhoto: PhotoItem = {
 
 export const artistPortraitPhoto: PhotoItem = {
   id: "artist-portrait",
-  title: "Achmad Giovani in the Studio",
+  title: "Alex Morgan in the Studio",
   category: "editorial",
   categoryLabel: "Artist Profile",
   location: "Jakarta Studio",
   year: "2025",
   aspectRatio: "4/5",
   src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80",
-  alt: "Portrait of photographer Achmad Giovani holding medium format camera",
+  alt: "Portrait of photographer Alex Morgan holding medium format camera",
   caption: "Photographer portrait captured in the studio with natural northern light.",
   camera: "Hasselblad 503CW",
   lens: "Carl Zeiss Planar 80mm f/2.8",
@@ -446,7 +446,7 @@ export const commissionInclusions = [
   {
     title: "Direct Creative Partnership",
     description:
-      "Every project is personally photographed and developed by Achmad Giovani. No junior assistants or uncredited substitutes.",
+      "Every project is personally photographed and developed by Alex Morgan. No junior assistants or uncredited substitutes.",
   },
   {
     title: "Archival Color Science",

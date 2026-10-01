@@ -1,6 +1,6 @@
-# Achmad Giovani — Photographer & Visual Documentarian
+# Alex Morgan — Photographer & Visual Documentarian
 
-A personal website and visual portfolio designed for photographer Achmad Giovani, built with Next.js, React 19, Tailwind CSS v4, and shadcn/ui.
+A personal website and visual portfolio designed for photographer Alex Morgan, built with Next.js, React 19, Tailwind CSS v4, and shadcn/ui.
 
 The design embodies an understated, gallery-inspired editorial aesthetic: generous negative space, refined typography, quiet contrast, and zero marketing jargon.
 
@@ -39,7 +39,7 @@ The design embodies an understated, gallery-inspired editorial aesthetic: genero
    - Standard inclusions checklist covering creative partnership, color grading, transparent licensing, and 5-year archival negative backup.
 
 5. **Contact & Inquiries:**
-   - Prominently placed direct email address: `achmad.giovani@imaniprima.co.id`.
+   - Prominently placed direct email address: `hello@example.com`.
    - One-click "Copy Address" button with immediate visual feedback.
    - Direct `mailto:` action button pre-filling the inquiry subject.
    - Interactive inquiry form for project scope, timeline, and category.
